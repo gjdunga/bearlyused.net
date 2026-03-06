@@ -34,6 +34,10 @@
     <div class="footer-bottom">
       <span>&copy; <?= date('Y') ?> <?= SITE_NAME ?> &mdash; Florence, Colorado</span>
       <span class="footer-verse">Matthew 6:33</span>
+      <span class="footer-credit">
+        This site proudly created by
+        <a href="https://dstaftn.net" target="_blank" rel="noopener noreferrer">DunganSoft Technologies</a>
+      </span>
     </div>
   </div>
 </footer>

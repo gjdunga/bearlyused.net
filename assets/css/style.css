@@ -1066,3 +1066,25 @@ a { color: inherit; }
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ---- FOOTER CREDIT ---- */
+.footer-credit {
+  font-size: 0.76rem;
+  color: #4a5a6e;
+}
+
+.footer-credit a {
+  color: var(--sand);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(200,184,154,0.3);
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.footer-credit a:hover {
+  color: var(--white);
+  border-bottom-color: var(--white);
+}
+
+@media (max-width: 639px) {
+  .footer-credit { text-align: center; }
+}

@@ -8,6 +8,11 @@
   <meta name="theme-color" content="#1a2744">
   <title><?= htmlspecialchars($page_title ?? SITE_NAME) ?></title>
 
+  <link rel="icon" type="image/png" sizes="256x256" href="<?= ASSETS ?>/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?= ASSETS ?>/images/favicon-32.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="<?= ASSETS ?>/images/favicon.png">
+
   <!-- Preconnect for fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
